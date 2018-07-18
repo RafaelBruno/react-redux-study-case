@@ -1,0 +1,42 @@
+.home-page {
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  section {
+    margin: 3em auto;
+    text-align: center;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &.centered {
+      text-align: center;
+    }
+  }
+
+  form {
+    margin-bottom: 1em;
+
+    input {
+      color: #262d3d;
+      background-color: #fff;
+      font-size: .9375rem;
+      font-family: Proxima Nova,Arial,"sans-serif";
+      line-height: 16px;
+      border: 1px solid #999;
+      border-radius: 3px;
+      height: 30px;
+      margin-top: 20px;
+      padding: 5px;
+      width: 300px;
+    }
+  }
+
+  span.at-prefix {
+    color: black;
+    margin-left: 0.4em;
+  }
+}
